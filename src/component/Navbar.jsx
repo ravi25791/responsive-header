@@ -6,6 +6,11 @@ const Navbar = () => {
     return (
         <nav>
             <Link to="/" className='title'>React Nav</Link>
+            <div className="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <ul>
                 <li><NavLink to="Home">Home</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
