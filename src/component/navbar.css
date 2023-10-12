@@ -1,0 +1,11 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #083773;
+    padding: 15px 40px;
+}
+
+nav .title{
+    color: white;
+    text-decoration: none;
+}
